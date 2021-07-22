@@ -1,0 +1,259 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+.header{
+	width: 100%;
+/*	background: lightgrey;*/
+	padding: 20px 0;
+	position: absolute;
+	z-index: 10;
+}
+.container{
+/*	background: red;*/
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+}
+.logo{
+	width: 10%;
+	overflow: hidden;
+}
+.logo a{
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+}
+.logo a:hover{
+	opacity: 0.8;
+}
+.nav{
+	width: 80%;
+}
+.nav ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style: none;
+	height: 100%;
+}
+.nav ul li{
+	margin: 0 24px;
+}
+.nav ul li a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.nav ul li a:hover{
+	opacity: 0.8;
+	color: blue;
+}
+.icon{
+	width: 10%;
+/*	background: pink;*/
+}
+.icon a{
+	color: white;
+	font-size: 24px;
+	margin: 0 10px;
+}
+.banner{
+	width: 100%;
+	height: 100vh;
+/*	overflow: hidden;*/
+	position: relative;
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.text-box{
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	background: rgba(0,0,0,0.55);
+	padding: 35px 50px 50px;
+}
+.text-box h3{
+	font-weight: 400;
+	letter-spacing: 6px;
+	word-spacing: 10px;
+}
+.text-box h1{
+	font-size: 72px;
+	letter-spacing: 20px;
+	font-weight: 400;
+	margin: 20px 0;
+}
+.text-box p{
+	font-size: 15px;
+	letter-spacing: 5px;
+	margin-bottom: 60px;
+}
+.text-box a{
+	color: white;
+	text-align: none;
+	padding: 20px 40px;
+	font-size: 14px;
+	text-decoration: none;
+	letter-spacing: 3px;
+	border: 1px solid white;
+}
+.text-box a:hover{
+	color: black;
+	background: white;
+}
+.section-1{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: flex;
+	justify-content: space-around;
+	padding: 100px 0;
+}
+.content-1{
+	width: 48%;
+	height: 400px;
+}
+.content-1 h2{
+	text-align: center;
+	padding: 50px;
+}
+.content-1 p{
+	text-align: center;
+}
+.content-1 img{
+	width: 100%;
+	height: 100%;
+}
+.section-2{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+/*	background: blue;*/
+	display: flex;
+	justify-content: space-around;
+	padding: 100px 0;
+	overflow: hidden;
+	position: relative;
+}
+.content-2{
+	width: 48%;
+	height: 400px;
+/*	background: red;*/
+}
+.content-2 img{
+	width: 100%;
+	height: 100%;
+}
+.section-3{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+/*	background: blue;*/
+	display: flex;
+	justify-content: space-around;
+	padding: 100px 0;
+	overflow: hidden;
+	position: relative;
+}
+.content-3{
+	width: 48%;
+	height: 400px;
+/*	background: red;*/
+}
+.content-3 img{
+	width: 100%;
+	height: 100%;
+}
+.section-4{
+	width: 100%;
+	height: 100vh;
+/*	overflow: hidden;*/
+	position: relative;
+	padding: 100px 0;
+}
+.section-4 img{
+	width: 100%;
+	height: 100%;
+/*	object-fit: cover;*/
+}
+.section-5{
+/*	background: blue;*/
+	display: flex;
+	justify-content: space-between;
+	padding: 100px 0;
+	margin-top: 20px;
+}
+.content-5{
+	width: 32%;
+	height: 700px;
+/*	background: red;*/
+}
+.content-5 img{
+	width: 100%;
+	height: 100%;
+}
+.section-6{
+	background: url("img/IMG_0347.JPG");
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+	color: white;
+}
+table{
+	text-align: center;
+	border-color: white;
+	border-collapse: collapse;
+	width: 700px;
+	height: 200px;
+}
+.footer{
+	background: black;
+	padding: 50px 0;
+	display: flex;
+	margin-top: 50px;
+	object-fit: cover;
+	justify-content: space-around;
+}
+.box{
+	width: 48%;
+	height: 50px;
+/*	background: red;*/
+}
+.bo-1{
+	width: 80%;
+}
+.bo-1 ul{
+	display: flex;
+	align-items: center;
+	list-style: none;
+	height: 100%;
+}
+.bo-1 ul li{
+	margin: 0 24px;
+}
+.bo-1 ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+}
+.bo-1 ul li a:hover{
+	opacity: 0.8;
+	color: yellow;
+}
